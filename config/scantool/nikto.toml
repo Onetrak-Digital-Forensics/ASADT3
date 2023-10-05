@@ -1,0 +1,18 @@
+[ScriptInfo]
+script_id      = "nikto"   # Do NOT Edit
+script_version = "2.1.0"   # Do NOT Edit
+
+[ScriptEnablers]
+nikto_enable            = "True"   # "True" or "False" | Enables The Host Command
+nikto_displaytype       = "V"      # "1", "2", "3", "4", "D", "E", "P", "S", "V" | More Info: nikto -h
+nikto_nointeractive     = "False"  # "True or "False" | Alias To "nikto -nointeractive" flag
+
+[ScriptOutput]
+nikto_output_format           = "csv"                # Can be one of the following: csv json htm nbe sql txt xml (Default: csv)
+nikto_default_output_filename = "nikto_output.csv"   # Filename For Script Output
+
+
+
+# This is a .toml configuration file!
+# Please follow .toml configuration syntax when altering!
+# "True" & "False" are CASE SENSITIVE! Uppercase Letters Are Required!

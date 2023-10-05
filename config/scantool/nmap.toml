@@ -1,0 +1,19 @@
+[ScriptInfo]
+script_id      = "nmap"    # Do NOT Edit
+script_version = "2.1.0"   # Do NOT Edit
+
+[ScriptEnablers] # Enables/Disables Script or Program Functions
+nmap_enable                 = "True"   # "True" or "False" | Enables The Host Command
+nmap_updatedb               = "True"   # "True" or "False" | Enables NSE Script Database Update Function
+nmap_nsescriptscan_enable   = "True"   # "True" or "False" | Enables NMAP NSE Script Scan Function
+nmap_nsedebug_enable        = "False"  # "True" or "False" | Enables NMAP NSE Debug (NSE_ScriptTrace)
+nmap_assumesudoperms_enable = "True"   # "True" or "False" | Alias to --privileged (Assume that the user is fully privileged)
+
+[ScriptOutput] # FileName With Extention (Output Directory Determined On Execute)
+nmap_fullscan_output_filename      = "nmap-fullscan_output.txt"
+
+
+
+# This is a .toml configuration file!
+# Please follow .toml configuration syntax when altering!
+# "True" & "False" are CASE SENSITIVE! Uppercase Letters Are Required!

@@ -1,0 +1,13 @@
+termcolor
+argparse
+PySimpleGUI
+
+## Other Python Dependencies: math, subproccess, time, os, requests, tomllib, termcolor
+
+## This Script Also Requires APT Packages 
+## Generally Found In Kali Linux & Parrot 
+## Linux APT Repositories.
+
+## Those Dependencies Include:
+## nmap
+## nikto

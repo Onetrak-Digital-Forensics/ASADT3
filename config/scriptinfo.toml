@@ -1,0 +1,9 @@
+[build]
+dependencies = ["nmap", "assetfinder", "dmitry", "dnsmap", "python3", "python3-pip"]
+
+[script_data]
+script_name    = "ASADT MK III"
+script_version = "2.0.0"
+script_desc    = "Assistive Search And Discovery Tool Mark 3"
+script_readme  = "README.md"
+script_authors = "secops@odfsec.org(✓)"
